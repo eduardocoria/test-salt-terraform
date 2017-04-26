@@ -6,8 +6,8 @@ It uses Terraform to install and configure salt (master and minion) in a AWS EC2
 
 Two salt states are created:
 
-. cron.sls: It creates a cron entry to run a script which counts all log lines every 30 minutes and stores those results.
-. users.sls: It creates 3 new users: testuser0, testuser1, and testuser2.
+1. cron.sls: It creates a cron entry to run a script which counts all log lines every 30 minutes and stores those results.
+2. users.sls: It creates 3 new users: testuser0, testuser1, and testuser2.
  
 # Instructions
 
