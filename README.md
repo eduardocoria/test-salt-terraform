@@ -4,7 +4,7 @@ This project is a proof of concept test.
 
 It uses Terraform to install and configure salt (master and minion) in a AWS EC2 instance automatically.
 
-#Instructions
+# Instructions
 
 1. Configure your AWS client credentials
 2. Add your keys (Be aware you'll need to change your private and public key in vars.tf)
@@ -19,6 +19,6 @@ terraform apply
 ssh -i yourkey ubuntu@xxx.xxx.xxx.xxx
 ```
 
-#Author
+# Author
 
 Eduardo Coria
